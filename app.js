@@ -46,6 +46,6 @@ app.use(bodyParser.urlencoded({extended: true}));
 });
 
 
-app.listen(3000  || process.env.Port, function(){
+app.listen(process.env.Port || 3000, function(){
   console.log("Server running on port 3000.");
 });

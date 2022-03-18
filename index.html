@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+    <link rel="icon" href="favicon2.ico">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <div class="top">
+
+    <center>
+      <h1 id="lblGreetings">Hi</h1>
+      <h1>Find out what is the weather like anywhere in the World.</h1>
+    <form class="" action="/" method="post">
+      <label for="cityInput">Enter City Name: </label>
+      <input id="cityInput" type="text" name="cityName">
+      <button type="submit">Go</button>
+    </form>
+
+    </center>
+      </div>
+      <div class="bottom">
+        <center>
+          © 2021 Evaldas Pranckevicius
+        </center>
+      </div>
+          <script>
+          // greetings code
+                 var myDate = new Date();
+                 var hrs = myDate.getHours();
+
+                 var greet;
+
+                 if (hrs < 12)
+                     greet = 'Good Morning';
+                 else if (hrs >= 12 && hrs <= 17)
+                     greet = 'Good Afternoon'
+                 else if (hrs >= 17 && hrs <= 24)
+                     greet = 'Good Evening';
+                 document.getElementById('lblGreetings').innerHTML = greet + ' and WELCOME!';
+          </script>
+  </body>
+</html>

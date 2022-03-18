@@ -1,0 +1,15 @@
+
+#lblGreetings {
+  text-align: center;
+  color: #696464;
+  font-size: 3rem
+}
+
+.top {
+  padding: 260px;
+  background-color: #E9E5DD;
+}
+.bottom {
+  padding: 20px;
+  background-color: #696464;
+}

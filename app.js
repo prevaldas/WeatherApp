@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({extended: true}));
       var restCharacters = query.slice(1,query.length);
       var capitalizedQuery = firstCharacter + restCharacters;
 
-      const apiKey = "YOUR KEY HERE"
+      const apiKey = "b1f9c5086c26f8cdeba9cd514aa5b79f"
       const unit = "metric"
       const url = "https://api.openweathermap.org/data/2.5/weather?q=" + query + "&appid=" + apiKey + "&units=" + unit;
 
